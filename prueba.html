@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botón Accesible</title>
+    <style>
+      /* Agrega estilos según tus preferencias para mejorar la usabilidad e interactividad */
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #3498db;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+      }
+
+      button:hover {
+        background-color: #2980b9;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Botón con principios de accesibilidad, usabilidad e interactividad -->
+    <button
+      type="button"
+      aria-label="Haz clic para realizar una acción"
+      onclick="realizarAccion()"
+    >
+      Presiona Aquí
+    </button>
+
+    <!-- Tu script o función JavaScript para la interactividad del botón -->
+    <script>
+      function realizarAccion() {
+        alert("Acción realizada correctamente");
+        // Agrega aquí la lógica adicional según sea necesario
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="En angela web puedes dar solucion a tus necesidades escolares"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-6.4.0-web/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/img" />
+    <title>Angela Web</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/login.css" />
+    <link rel="stylesheet" href="./assets/css/media-queries.css" />
+  </head>
+
+  <body>
+    <div class="spinner-overlay">
+      <div class="spinner">
+        <img src="./assets/img/spinner.svg" alt="spinner" />
+      </div>
+    </div>
+    <header class="header-area">
+      <img
+        src="./assets/img/Logo-angela.png"
+        alt="Imagen escolar de inicio"
+        loading="lazy"
+      />
+      <nav class="menu-nav">
+        <ul class="nav-list">
+          <li class="item"><a href="index.html">Inicio</a></li>
+          <li class="item"><a href="#">Institucionalidad</a></li>
+          <li class="item"><a href="#">Solicitudes</a></li>
+          <li class="item">
+            <a href="./assets/pages/inscripciones.html">Inscripciones</a>
+          </li>
+          <li class="item">
+            <a href="./assets/pages/contactanos.html">Contáctanos</a>
+          </li>
+          <li class="item"><a href="#">Angela1290</a></li>
+        </ul>
+      </nav>
+    </header>
+    <button class="panel-btn hamburger hamburger--vortex" type="button">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+    <aside class="panel">
+      <nav class="menu">
+        <a href="#seccion1" data-scroll-spy>Inicio</a>
+        <a href="#seccion2" data-scroll-spy>Institucionalidad</a>
+        <a href="#seccion3" data-scroll-spy>Solicitudes</a>
+        <a href="#seccion4" data-scroll-spy>Contáctanos</a>
+        <a href="#seccion5" data-scroll-spy>Angela1290</a>
+      </nav>
+    </aside>
+    <!-- /**********************HEADER END******************************************/ -->
+    <section class="main-banner" id="top">
+      <video autoplay muted loop id="bg-video">
+        <source
+          src="./assets/img/course-video.mp4"
+          type="video/mp4"
+          loading="lazy"
+        />
+      </video>
+      <div class="container-text">
+        <div class="container-parrafo">
+          <h1>Hola Bienvenidos a</h1>
+          <h2>Angela 1290</h2>
+          <p>
+            Nuestros programas académicamente rigurosos operan en perspectiva de
+            «aprender haciendo», i.e. Hands On; practical approach to learning,
+            lo cual le permite a nuestros graduandos distinguirse en las
+            universidades y empresas de todo el mundo.
+          </p>
+          <button type="button" class="l-button" id="open-login-modal">
+            Inicia Sesion
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- /**********************VIDEO END******************************************/ -->
+    <!-- Botón para abrir el diálogo modal -->
+
+    <!-- Diálogo modal para el login -->
+    <div>
+      <p>Prime Time</p>
+    </div>
+    <div id="login-modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="logo">
+          <img src="./assets/img/Logo-angela.png" alt="Logo" width="100px" />
+          <h1>Bienvenidos a Angela Web</h1>
+        </div>
+        <form class="login-form">
+          <label for="username">Nombre de usuario:</label>
+          <input type="text" id="username" name="username" required />
+
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required />
+
+          <div class="remember-me">
+            <input type="checkbox" id="remember-me" name="remember-me" />
+            <label for="remember-me">Recordar contraseña</label>
+          </div>
+
+          <button type="submit" class="login-button">Iniciar sesión</button>
+        </form>
+        <div class="help">
+          <i class="fa-solid fa-circle-info" style="color: #b60707"></i>
+          <span>¿Necesitas ayuda?</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="slider-container">
+      <div class="card-slider-container">
+        <div class="card">
+          <div class="border">
+            <img
+              src="./assets/img/matriculas.png"
+              alt=""
+              width="50px"
+              loading="lazy"
+            />
+          </div>
+          <div class="container-letter">
+            <p>Matriculas 2023</p>
+            <span class="p-card">
+              Conoce toda la informacion sobre las matriculas de este año
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="border">
+            <img
+              src="./assets/img/inscripciones.png"
+              alt=""
+              width="40px"
+              loading="lazy"
+            />
+          </div>
+          <div class="container-letter">
+            <p>Inscripciones</p>
+            <span class="p-card">
+              Conoce las fechas de incripcion y su valor actual.
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="border">
+            <img
+              src="./assets/img/documentos.png"
+              alt=""
+              width="40px"
+              loading="lazy"
+            />
+          </div>
+          <div class="container-letter">
+            <p>Documentos Institucionales</p>
+            <span class="p-card">
+              Documentos de interes publicos de la institucion
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="border">
+            <img src="./assets/img/campus.png" width="40px" loading="lazy" />
+          </div>
+          <div class="container-letter">
+            <p>Campus</p>
+            <span class="p-card">
+              conoce nuestras instalaciones y nuestras políticas
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blank"></section>
+
+    <section class="events">
+      <div class="card-events">
+        <h2>Eventos Institucionales</h2>
+        <hr />
+      </div>
+      <div class="card-events-container">
+        <div class="box-event">
+          <div class="card-image">
+            <img src="./assets/img/meeting-04.jpg" alt="" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <figcaption>
+              <h2>Graduaciones 11° 2023-A</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim,
+                dignissimos?
+              </p>
+              <div class="card-date">DIC 15</div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="box-event">
+          <div class="card-image">
+            <img src="./assets/img/meeting-01.jpg" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <figcaption>
+              <h2>Conferencia Robotica 2023</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta,
+                explicabo!
+              </p>
+              <div class="card-date">Feb 07</div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="box-event">
+          <div class="card-image">
+            <img src="./assets/img/meeting-02.jpg" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <figcaption>
+              <h2>BootCamp Backend 2023</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                accusamus!
+              </p>
+              <div class="card-date">Oct 03</div>
+            </figcaption>
+          </div>
+        </div>
+        <div class="box-event">
+          <div class="card-image">
+            <img src="./assets/img/meeting-01.jpg" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <figcaption>
+              <h2>Dia de la lectura</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tenetur, hic!
+              </p>
+              <div class="card-date">ENE 23</div>
+            </figcaption>
+          </div>
+        </div>
+      </div>
+      <div class="container-button">
+        <button class="button" type="button">Ver más</button>
+      </div>
+    </section>
+
+    <section class="main-achievements">
+      <div class="container-titulo">
+        <h2 class="text-achieve">Colegio de Prueba 2023</h2>
+        <p class="text-logro">Logros Institucionales</p>
+      </div>
+
+      <div class="container-achievements">
+        <article class="achievements">
+          <h2 class="counter" data-target="1850"></h2>
+          <p>Ejecucion Presupuestal</p>
+        </article>
+        <article class="achievements">
+          <h2 class="counter" data-target="100"></h2>
+          <p>Ejecucion Presupuestal</p>
+        </article>
+        <article class="achievements">
+          <h2 class="counter" data-target="500"></h2>
+          <p>Ejecucion Presupuestal</p>
+        </article>
+        <article class="achievements">
+          <h2 class="counter" data-target="450"></h2>
+          <p>Ejecucion Presupuestal</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="allies">
+      <h2 class="text-allies">Todos Nuestros Aliados</h2>
+      <div class="container-allies">
+        <figure class="card-allies">
+          <img src="./assets/img/logos_mongodb.png" alt="" loading="lazy" />
+        </figure>
+        <figure class="card-allies">
+          <img src="./assets/img/logos_microsoft.png" alt="" loading="lazy" />
+        </figure>
+        <figure class="card-allies">
+          <img src="./assets/img/logos_docker.png" alt="" loading="lazy" />
+        </figure>
+      </div>
+      <!-- <figure>
+        <img src="./assets/img/Logo-angela.png." alt="" />
+      </figure> -->
+    </section>
+
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="subcontainer-footer">
+          <figure>
+            <img
+              src="./assets/img/Logo-angela.png"
+              alt="Logo Footer"
+              loading="lazy"
+            />
+            <figcaption>
+              Transformámos procesos complejos, en experiencias intuitivas y
+              agradables de exitos, para las nuevas generaciones.
+            </figcaption>
+            <div class="social">
+              <p>Siguenos:</p>
+              <i
+                class="fa-brands fa-facebook fa-2xl"
+                style="color: #0b62f9"
+              ></i>
+              <i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000"></i>
+              <i
+                class="fa-brands fa-instagram fa-2xl"
+                style="color: #ffffff"
+              ></i>
+            </div>
+          </figure>
+        </div>
+
+        <nav class="menu-nav-footer">
+          <ul class="nav-list">
+            <li class="item"><a href="http://">Inicio</a></li>
+            <li class="item"><a href="http://">Institucionalidad</a></li>
+            <li class="item"><a href="http://">Solicitudes</a></li>
+            <li class="item"><a href="http://">Inscripciones</a></li>
+            <li class="item"><a href="http://">Contáctanos</a></li>
+            <li class="item"><a href="http://">Angela1290</a></li>
+          </ul>
+        </nav>
+        <div class="contact">
+          <h2 class="contactanos">Contáctanos</h2>
+          <h3 class="color">Teléfono</h3>
+          <a href="tel:+576018785427" class="color">+6018785427</a>
+          <h3 class="color">Dirección</h3>
+          <p class="color">Calle 4ta 1187-38 Sabanalarga</p>
+          <h3 class="color">Email</h3>
+          <a href="mailto:email@prueba.com" class="color">email@prueba.com</a>
+        </div>
+      </div>
+      <div class="politics">
+        <a href="http://" class="color">Políticas de privacidad</a>
+        <a href="http://" class="color">Políticas de tratamiento de datos</a>
+        <a href="http://" class="color">Términos y Condiciones</a>
+        <a href="http://" class="color">Preguntas frecuentes</a>
+      </div>
+      <div class="made">
+        <p class="parrafo">Made with</p>
+        <div class="icon">
+          <i <i class="fa-solid fa-heart fa-2xl" style="color: #ff0000"></i>
+        </div>
+        <p class="parrafo">by</p>
+        <p class="resalto">Matthew Ruiz Kidman</p>
+      </div>
+    </footer>
+
+    <!-- <script src="./assets/js/slider.js"></script> -->
+    <script src="./index.js" type="module"></script>
+
+    <script>
+      window.addEventListener("load", function () {
+        // Oculta el spinner cuando la página se carga completamente
+        document.querySelector(".spinner-overlay").style.display = "none";
+      });
+    </script>
+  </body>
+</html>

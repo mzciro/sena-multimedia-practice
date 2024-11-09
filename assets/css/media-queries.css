@@ -1,0 +1,165 @@
+@media screen and (min-width: 576px) {
+  .main-achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-achievements .achievements {
+    width: 166px;
+    height: 123px;
+  }
+  .achievements > h2 {
+    color: #f5a425;
+    font-size: 2rem;
+  }
+
+  .achievements > p {
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .allies {
+    text-align: center;
+  }
+  .container-allies {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-area {
+    justify-content: space-around;
+  }
+  .panel-btn {
+    display: none;
+  }
+  header .menu-nav {
+    display: flex;
+  }
+
+  header .menu-nav .nav-list {
+    display: flex;
+  }
+  .nav-list .item {
+    margin-right: 10px;
+  }
+  .nav-list .item a {
+    color: white;
+  }
+  .subcontainer-footer figcaption {
+    font-size: 1.9rem;
+    width: 62%;
+    margin: 0 auto;
+  }
+  .contact .contactanos {
+    font-size: 1.8rem;
+  }
+  .color {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-parrafo {
+    width: 75vw;
+  }
+  .container-parrafo p {
+    width: 600px;
+  }
+  .footer {
+    height: 353px;
+  }
+  .container-footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .subcontainer-footer {
+    width: 33%;
+    height: 30vh;
+  }
+  .subcontainer-footer figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .subcontainer-footer figcaption {
+    font-size: 1.6rem;
+    margin: 0;
+    text-align: justify;
+  }
+  .subcontainer-footer .social {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .subcontainer-footer .social p {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .subcontainer-footer .social .fa-brands {
+    font-size: 32px;
+    margin-left: 15px;
+  }
+  .subcontainer-footer .social .fa-brands:first-child {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  .menu-nav-footer {
+    font-size: 1.6rem;
+    width: 33%;
+  }
+  .menu-nav-footer .item {
+    margin-bottom: 15px;
+  }
+  .menu-nav-footer .item a {
+    font-size: 1.6rem;
+  }
+  .menu-nav-footer .nav-list {
+    padding: 0;
+  }
+  .contact {
+    width: 33%;
+  }
+
+  .slider-container {
+    margin: 0 auto;
+  }
+  .politics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0;
+  }
+  .politics a {
+    margin-right: 15px;
+  }
+  .main-achievements .achievements {
+    width: 241px;
+    height: 123px;
+  }
+  .main-achievements .achievements p {
+    font-size: 1.7rem;
+  }
+  .main-achievements .achievements h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .card-events-container {
+    margin: 0 auto;
+  }
+  .container-button {
+    margin-top: 30px;
+  }
+  .container-parrafo {
+    width: 61vw;
+  }
+}
